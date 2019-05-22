@@ -1,0 +1,4 @@
+
+import pdftables_api as pdf
+c= pdf.client('b')
+c.xlsx('b.pdf', 'output')
